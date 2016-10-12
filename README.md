@@ -8,12 +8,12 @@ torch-rnn generates some 1000 names, sends the list to client, client starts run
 It as well starts omxplayer playing back the waves.mp3 file (used a mini-speaker plugged into the audio port of the raspberry pi, 
 bluetooth was too buggy). 
 
-prerequisites:
+ # prerequisites:
 
 - remote server (minimum specs 8gb ram)
 - local client (e.g. raspberry pi) with python 2 and processing 3 installed
 
-installation (server side):
+# installation (server side):
 
 
 - install docker on remote server
@@ -38,7 +38,7 @@ installation (server side):
   python server_script.py
   
   
-installation (client side)
+# installation (client side)
 
 - edit python script to change IP address (change line 11 "server address" to the one of your server)
 
