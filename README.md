@@ -15,7 +15,7 @@ bluetooth was too buggy).
 
 check the website for video and detailed setup: http://ouiouioui.space/lab#/nom/
 
- # prerequisites:
+# prerequisites:
 
 - remote server (minimum specs 8gb ram)
 - local client (e.g. raspberry pi) with python 2 and processing 3 installed
