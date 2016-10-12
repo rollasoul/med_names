@@ -18,7 +18,7 @@ void setup() {
   displayed2 = "";
   time = millis();
   textFont(font);
-  fill(112,128,144);
+  fill(0, 0, 0);
   String lines[] = loadStrings("/home/pi/med_names1.txt");
   println("there are " + lines.length + " lines");
 }
@@ -41,7 +41,7 @@ void draw() {
     }
   }
   else {
-    displayed = " / / / ";
+    displayed = " WAIT / READ / WRITE  ";
   }
   
  
