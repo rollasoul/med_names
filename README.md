@@ -16,8 +16,9 @@ prerequisites:
 installation (server side):
 
 - install docker on remote server
-    sudo apt-get install docker.io
-    sudo service docker start
+  
+  sudo apt-get install docker.io
+  sudo service docker start
   
 - pull torch-rnn image with trained model from dockerhub
   sudo docker pull rollasoul/med_names
