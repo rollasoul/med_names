@@ -14,7 +14,7 @@ general prerequisites:
 - remote server (minimum specs 8gb ram)
 - local client (e.g. raspberry pi) with python 2 and processing 3 installed
 
-# installation (server side):
+# install and run server side
 
 
 - install docker on remote server
@@ -39,7 +39,7 @@ general prerequisites:
   python server_script.py
   ```
   
-# installation (client side)
+# install and run client side
 
 - edit python script to change IP address (change line 11 "server address" to the one of your server)
   
