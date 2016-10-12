@@ -1,6 +1,6 @@
 # med_names
 
-This is a messy patched bunch of scripts that when put in the right place help running a torch-rnn on a remote server.
+This is a small, messy, patched bunch of scripts that when put in the right place help running a torch-rnn on a remote server.
 The torch-rnn is trained on 20 000 first names (only some 4000 steps to keep the output rough) and generates new names.
 The client can be anything running python 2 and processing 3 (used a Raspberry Pi running Raspian) with a light sensor 
 attached (used the ldr light sensor) - this triggers the first script and sends a request via sockets tp server,
@@ -43,6 +43,10 @@ installation (client side)
 - edit python script to change IP address (change line 11 "server address" to the one of your server)
 
   vi client_script.py
+  
+- edit processing script to change directory of med_names1.txt file with the list of names to the location it will be           downloaded to from server (by default in the /home/pi/ folder)
+  
+  vi mednames.pde
 
 
 - run python script
