@@ -17,11 +17,11 @@ bluetooth was too buggy).
 
 
 - install docker on remote server
-  
+  ```
   sudo apt-get install docker.io
   
   sudo service docker start
-  
+  ```
   
 - pull torch-rnn image with trained model from dockerhub
 
