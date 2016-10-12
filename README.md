@@ -41,6 +41,7 @@ bluetooth was too buggy).
 # installation (client side)
 
 - edit python script to change IP address (change line 11 "server address" to the one of your server)
+  
   ```
   vi client_script.py
   ```
