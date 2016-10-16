@@ -50,6 +50,7 @@ general prerequisites:
   ```
   vi mednames.pde
   ```
+- download the [waves-recording] (https://www.freesound.org/people/Corsica_S/sounds/197714/) from freesound.org (you have to sign-up for this)
 
 - run python script
   ```
