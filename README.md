@@ -5,14 +5,14 @@
 
 # med_names
 
-This is a small, messy, patched bunch of scripts that when put in the right place together with a [docker] (https://www.docker.com/) image help running Justin Johnson's [torch-rnn] (https://github.com/jcjohnson/torch-rnn) on a remote server. It was used in an art installation (see pic above). The torch-rnn is already trained on 20 000 first names (only some 4000 steps to keep the output rough) and generates new names. The client can be anything running python 2 and processing 3 (used a Raspberry Pi running Raspian) with a light sensor attached (used the ldr light sensor) - this triggers the first script and sends a request via sockets tp server, torch-rnn generates some 1000 names, sends the list to client, client starts running a processing script and displays a flickering name. It as well starts omxplayer playing back the waves.mp3 file (used a mini-speaker plugged into the audio port of the raspberry pi, bluetooth was too buggy). 
+This is a small, messy, patched bunch of scripts that when put in the right place together with a [docker] (https://www.docker.com/) image help running Justin Johnson's [torch-rnn] (https://github.com/jcjohnson/torch-rnn) on a remote server. It was used in an art installation (see pic above). The torch-rnn is already trained on 20 000 first names (only some 4000 steps to keep the output rough) and generates new names. The client can be anything running python 2 and processing 3 (used a Raspberry Pi running Raspian) with a light sensor attached - this triggers the first script and sends a request via sockets tp server, torch-rnn generates some 1000 names, sends the list to client, client starts running a processing script and displays a flickering name. It as well starts omxplayer playing back the waves.mp3 file (used a mini-speaker plugged into the audio port of the raspberry pi, bluetooth was too buggy). 
 
 (also check the [project-website] (http://ouiouioui.space/lab#/nom/) for video of installation and detailed setup of raspberry pi)
 
 general prerequisites:
 
 - remote server (minimum specs 8gb ram)
-- local client (e.g. raspberry pi) with python 2 and processing 3 installed
+- local client (e.g. raspberry pi) with python 2 and processing 3 installed, light sensor and module (e.g. S002M light sensor)
 
 # install and run server side
 
