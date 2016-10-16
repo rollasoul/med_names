@@ -12,7 +12,8 @@ This is a small, messy, patched bunch of scripts that when put in the right plac
 general prerequisites:
 
 - remote server (minimum specs 8gb ram)
-- local client (e.g. raspberry pi) with python 2 and processing 3 installed, light sensor and module (e.g. S002M light sensor)
+- local client (e.g. raspberry pi) with python 2 and processing 3 installed
+  ( + light sensor/module e.g. S002M, speakers)
 
 # install and run server side
 
