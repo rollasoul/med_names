@@ -47,6 +47,7 @@ general prerequisites:
   vi client_script.py
   ```
 - edit processing script to change directory of med_names1.txt file with the list of names to the location it will be           downloaded to from server (by default in the /home/pi/ folder)
+  
   ```
   vi mednames.pde
   ```
