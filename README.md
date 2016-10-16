@@ -59,7 +59,7 @@ general prerequisites:
   python med_names.py
   ```
   
-... after covering the light sensor the client sends reuqest, on the server terminal you will see connection, ignore error about connection lost on client, it's fine. 
+... after covering the light sensor the client sends request, on the server terminal you will see connection, ignore error about connection lost on client, it's fine. 
 The python script will run a processing script, display the name on the screen and start the omxplayer playing back the waves.mp3 file - when the light sensor is covered "wait/read/write" will appear, the audio stops and the server is called again.
   
   
