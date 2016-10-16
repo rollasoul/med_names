@@ -13,7 +13,7 @@ general prerequisites:
 
 - remote server (minimum specs 8gb ram)
 - local client (e.g. raspberry pi) with python 2 and processing 3 installed
-  ( + light sensor/module e.g. S002M, speakers)
+  ( + light sensor/module e.g. S002M, speakers, small screen)
 
 # install and run server side
 
